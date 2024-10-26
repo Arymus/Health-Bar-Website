@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Arymus Reyes">
+        <meta name="description" content="JavaScript health bar">
+        <meta charset="UTF-8">
+        <title>JavaScript Health Bar</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>JavaScript Health Bar</h1>
+        </header>
+        <main>
+            <label for="healthBar" id="label">Health:</label>
+            <br>
+            <progress max="10" value="10" id="healthBar"></progress>
+            <br>
+            <button id="hit">Thwack!</button>
+            <audio src="thwack.mp3" id="thwack"></audio>
+            <audio src="womp.mp3" id="dead"></audio>
+        </main>
+    </body>
+</html>
